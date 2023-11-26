@@ -1,1 +1,4 @@
-# unstable_digital_3.0
+# Project Unstable
+
+# DJ Mix Streaming platform built using React/NextJS.
+
