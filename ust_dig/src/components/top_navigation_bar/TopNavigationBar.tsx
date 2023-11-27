@@ -7,7 +7,7 @@ function TopNavigationBar() {
         <nav>
             <ul id="TopNavigationBar">
                 <div id="LeftSideTopNavigationBar">
-                    <li>Logo</li>
+                    <li><Link href="/">Logo</Link></li>
                 </div>
                 <div id="RightSideTopNavigationBar">
                     <li><Link href="/mixes">Mixes</Link></li>
