@@ -1,8 +1,25 @@
+li {
+  cursor: pointer;
+}
+
 #TopNavigationBar {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  margin-left: 120px;
+  margin-right: 120px;
+  justify-content: space-between;
   align-items: center;
   height: 60px;
+}
+
+#LeftSideTopNavigationBar {
+  display: flex;
+  flex-direction: row;
+}
+
+#RightSideTopNavigationBar {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
 }
 
