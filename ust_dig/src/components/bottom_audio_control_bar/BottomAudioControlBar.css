@@ -2,4 +2,10 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    align-items: center;
+    
+    /* Keep the Audio Controller at the bottom of the page. */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }

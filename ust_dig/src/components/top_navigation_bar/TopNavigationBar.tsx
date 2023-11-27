@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import './TopNavigationBar.css'
 
 function TopNavigationBar() {
@@ -9,10 +10,10 @@ function TopNavigationBar() {
                     <li>Logo</li>
                 </div>
                 <div id="RightSideTopNavigationBar">
-                    <li><a href="">Mixes</a></li>
-                    <li><a href="">Visuals</a></li>
-                    <li><a href="">Store</a></li>
-                    <li><a href="">About</a></li>
+                    <li><Link href="/mixes">Mixes</Link></li>
+                    <li><Link href="/visuals">Visuals</Link></li>
+                    <li><Link href="/store">Store</Link></li>
+                    <li><Link href="/about">About</Link></li>
                 </div>
             </ul>
         </nav>
