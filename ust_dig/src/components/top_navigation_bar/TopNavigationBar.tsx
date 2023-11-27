@@ -1,15 +1,22 @@
 import React from "react";
+import './TopNavigationBar.css'
 
 function TopNavigationBar() {
     return (
         <nav>
-            <ul>
-                <li>Logo</li>
-                <li>Mixes</li>
-                <li>Visuals</li>
-                <li>Merch</li>
-                <li>About</li>
+            <ul id="TopNavigationBar">
+                <div className="LeftSideTopNavigationBar">
+                    <li>Logo</li>
+                </div>
+                <div className="RightSideTopNavigationBar">
+                    <li>Mixes</li>
+                    <li>Visuals</li>
+                    <li>Store</li>
+                    <li>About</li>
+                </div>
             </ul>
-        </nav> 
-        );
+        </nav>
+    );
 };
+
+export default TopNavigationBar;
