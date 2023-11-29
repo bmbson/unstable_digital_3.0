@@ -13,6 +13,7 @@ function TopNavigationBar() {
                     <li><Link href="/mixes">Mixes</Link></li>
                     <li><Link href="/visuals">Visuals</Link></li>
                     <li><Link href="/store">Store</Link></li>
+                    <li><Link href="/account">Account</Link></li>                
                     <li><Link href="/about">About</Link></li>
                 </div>
             </ul>
