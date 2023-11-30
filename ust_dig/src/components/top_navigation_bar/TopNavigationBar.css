@@ -5,21 +5,39 @@ li {
 #TopNavigationBar {
   display: flex;
   flex-direction: row;
-  margin-left: 120px;
-  margin-right: 120px;
   justify-content: space-between;
   align-items: center;
   height: 60px;
+  margin: 0em 1em 0em 1em;
 }
 
-#LeftSideTopNavigationBar {
+#LogoImage {
   display: flex;
   flex-direction: row;
 }
 
-#RightSideTopNavigationBar {
+#BigScreenNavigationMenu {
   display: flex;
   flex-direction: row;
   gap: 40px;
+}
+
+#SmallScreenNavigationMenu {
+  display: none;
+
+}
+
+@media screen and (max-width: 800px) {
+  #BigScreenNavigationMenu {
+    display: none;
+  }
+
+  #SmallScreenNavigationMenu {
+    display: flow;
+  }
+
+  #Logo {
+    align-self: center;
+  }
 }
 
