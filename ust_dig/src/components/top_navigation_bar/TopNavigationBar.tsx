@@ -13,10 +13,12 @@ function TopNavigationBar() {
     return (
         <nav>
             <ul id="TopNavigationBar">
-                <Image id="SmallScreenNavigationMenu" src="/top_navigation_bar_images/hamburger_menu.svg" alt={"Menu"} width={50} height={50} style={hamburger_menu_style}/>
+                <Image className="SmallScreenNavigationMenu" src="/top_navigation_bar_images/hamburger_menu.svg" alt={"Menu"} width={50} height={50} style={hamburger_menu_style}/>
                 <div id="Logo">
                     <li><Link href="/">Logo</Link></li>
                 </div>
+
+                <p className="SmallScreenNavigationMenu">Login</p>
                 
                 <div id="BigScreenNavigationMenu">
                     <li><Link href="/mixes">Mixes</Link></li>

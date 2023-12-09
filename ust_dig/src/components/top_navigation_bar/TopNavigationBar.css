@@ -22,22 +22,24 @@ li {
   gap: 40px;
 }
 
-#SmallScreenNavigationMenu {
+.SmallScreenNavigationMenu {
   display: none;
-
 }
 
 @media screen and (max-width: 800px) {
+  #TopNavigationBar {
+    justify-content: space-between;
+  }
   #BigScreenNavigationMenu {
     display: none;
   }
 
-  #SmallScreenNavigationMenu {
+  .SmallScreenNavigationMenu {
     display: flow;
   }
 
   #Logo {
-    align-self: center;
+    justify-self: center;
   }
 }
 
