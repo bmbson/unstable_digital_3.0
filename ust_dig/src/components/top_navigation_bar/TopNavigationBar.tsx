@@ -14,17 +14,17 @@ function TopNavigationBar() {
             <ul id="TopNavigationBar">
                 <Image className="SmallScreenNavigationMenu" src="/images/top_navigation_bar_images/hamburger_menu.svg" alt={"Menu"} width={50} height={50} style={hamburger_menu_style} />
                 <div id="Logo">
-                    <li><Link href="/">Logo</Link></li>
+                    <li className="TopNaviationBarItem"><Link href="/"><Image src="/images/top_navigation_bar_images/logo.gif" alt={"Logo"} width={100} height={50}></Image></Link></li>
                 </div>
 
-                <Link href="/account" className="SmallScreenNavigationMenu">Account</Link>
+                <Link href="/mixes" className="SmallScreenNavigationMenu TopNaviationBarItem">Mixes</Link>
 
                 <div id="BigScreenNavigationMenu">
-                    <li><Link href="/mixes">Mixes</Link></li>
-                    <li><Link href="/visuals">Visuals</Link></li>
-                    <li><Link href="/store">Store</Link></li>
-                    <li><Link href="/account">Account</Link></li>
-                    <li><Link href="/about">About</Link></li>
+                    <li><Link className="TopNavigationBarItem" href="/mixes">Mixes</Link></li>
+                    <li><Link className="TopNavigationBarItem" href="/visuals">Visuals</Link></li>
+                    <li><Link className="TopNavigationBarItem" href="/store">Store</Link></li>
+                    <li><Link className="TopNavigationBarItem" href="/account">Account</Link></li>
+                    <li><Link className="TopNavigationBarItem" href="/about">About</Link></li>
                 </div>
 
             </ul>

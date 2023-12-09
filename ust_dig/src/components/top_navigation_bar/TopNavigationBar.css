@@ -11,6 +11,11 @@ li {
   margin: 0em 1em 0em 1em;
 }
 
+.TopNavigationBarItem:hover {
+  background-color: rgb(83, 83, 83);
+
+}
+
 #LogoImage {
   display: flex;
   flex-direction: row;
@@ -19,7 +24,9 @@ li {
 #BigScreenNavigationMenu {
   display: flex;
   flex-direction: row;
+  align-items: center;
   gap: 40px;
+  height: 100%;
 }
 
 .SmallScreenNavigationMenu {
