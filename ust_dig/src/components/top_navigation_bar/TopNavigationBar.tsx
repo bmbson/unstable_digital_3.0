@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { MdMenu } from "react-icons/md";
 import './TopNavigationBar.css'
 
 const hamburger_menu_style = {
@@ -8,11 +9,13 @@ const hamburger_menu_style = {
     filter: 'brightness(0) invert(1)',
 }
 
+//<Image src="/images/top_navigation_bar_images/logo.gif" alt={"Logo"} width={100} height={50}></Image>
 function TopNavigationBar() {
     return (
         <nav>
             <ul id="TopNavigationBar">
-                <Image className="SmallScreenNavigationMenu" src="/images/top_navigation_bar_images/hamburger_menu.svg" alt={"Menu"} width={50} height={50} style={hamburger_menu_style} />
+                <MdMenu className="SmallScreenNavigationMenu"/>
+                
                 <div id="Logo">
                     <li className="TopNaviationBarItem"><Link href="/"><Image src="/images/top_navigation_bar_images/logo.gif" alt={"Logo"} width={100} height={50}></Image></Link></li>
                 </div>
