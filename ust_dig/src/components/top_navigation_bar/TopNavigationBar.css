@@ -13,7 +13,7 @@ li {
 
 .TopNavigationBarItem:hover {
   background-color: rgb(83, 83, 83);
-
+  color: rgb(161, 161, 161);
 }
 
 #LogoImage {
