@@ -2,7 +2,7 @@ li {
   cursor: pointer;
 }
 
-#TopNavigationBar {
+#TopNavigationBar{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -11,7 +11,7 @@ li {
   margin: 0em 1em 0em 1em;
 }
 
-.TopNavigationBarItem:hover {
+#TopNavigationBarItem:hover, #SideNavigationBarItem:hover  {
   background-color: rgb(83, 83, 83);
   color: rgb(161, 161, 161);
 }
@@ -41,6 +41,13 @@ li {
     display: none;
   }
 
+  #SideNavigationMenu {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: red;
+  }
+
   .SmallScreenNavigationMenu {
     display: flow;
   }
@@ -51,7 +58,7 @@ li {
   }
 }
 
-#HamburgerMenuIcon {
+#HamburgerMenu {
   cursor: pointer;
 }
 

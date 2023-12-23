@@ -16,29 +16,29 @@ const navigationMenuItemData = [
 ]
 
 const topNavigationMenuItems = navigationMenuItemData.map(item =>
-    <li><Link className="TopNavigationBarItem" href={item.href}>{item.text}</Link></li>
+    <li><Link id="TopNavigationBarItem" href={item.href}>{item.text}</Link></li>
 );
 
+const sideNavigationMenuItems = navigationMenuItemData.map(item =>
+    <li><Link id={"SideNavigationBarItem"} href={item.href}>{item.text}</Link></li>
 
+)
 
 
 function TopNavigationBar() {
-    const [menuOpenOrClosed, setMenuOpenOrClosed] = useState(false);
+    const [menuOpenOrClosed, setMenuOpenOrClosed] = useState(true);
 
     function showHamburgerMenu() {
         setMenuOpenOrClosed(!menuOpenOrClosed);
-        alert(topNavigationMenuItems);
     }
 
     return (
         <>
             <nav>
                 <ul id="TopNavigationBar">
-                    <MdMenu onClick={() => showHamburgerMenu()} id="HamburgerMenuIcon" className="SmallScreenNavigationMenu" />
+                    <MdMenu onClick={() => showHamburgerMenu()} id="HamburgerMenu" className="SmallScreenNavigationMenu" />
 
-                    <div id="Logo">
-                        <li className="TopNaviationBarItem"><Link href="/"><Image src="/images/top_navigation_bar_images/logo.gif" alt={"Logo"} width={100} height={50}></Image></Link></li>
-                    </div>
+                    <li id="Logo" className="TopNaviationBarItem"><Link href="/"><Image src="/images/top_navigation_bar_images/logo.gif" alt={"Logo"} width={100} height={50}></Image></Link></li>
 
                     <div id="BigScreenNavigationMenu">
                         {topNavigationMenuItems}
@@ -46,8 +46,8 @@ function TopNavigationBar() {
 
                 </ul>
             </nav>
-            <div id="SideNavigationMenu" className="SmallScreenNavigationMenu">
-                {topNavigationMenuItems}
+            <div style={{'display': ` ${menuOpenOrClosed ? 'none' : 'flex'}`}} id="SideNavigationMenu" className="SmallScreenNavigationMenu">
+                {sideNavigationMenuItems}
             </div>
 
         </>
