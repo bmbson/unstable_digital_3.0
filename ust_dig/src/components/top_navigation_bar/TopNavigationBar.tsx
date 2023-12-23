@@ -46,7 +46,7 @@ function TopNavigationBar() {
 
                 </ul>
             </nav>
-            <div style={{'display': ` ${menuOpenOrClosed ? 'none' : 'flex'}`}} id="SideNavigationMenu" className="SmallScreenNavigationMenu">
+            <div style={{'display': ` ${menuOpenOrClosed ? 'none' : ''}`}} id="SideNavigationMenu" className="SmallScreenNavigationMenu">
                 {sideNavigationMenuItems}
             </div>
 

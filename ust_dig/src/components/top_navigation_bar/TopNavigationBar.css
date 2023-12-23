@@ -45,7 +45,8 @@ li {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    background-color: red;
+    background-color: rgba(95, 95, 95, 0.205);
+    width: 150px;
   }
 
   .SmallScreenNavigationMenu {
