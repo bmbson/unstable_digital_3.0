@@ -15,9 +15,11 @@ const navigationMenuItemData = [
     { key: 4, href: '/about', text: 'About' },
 ]
 
-const navigationMenuItems = navigationMenuItemData.map(item =>
+const topNavigationMenuItems = navigationMenuItemData.map(item =>
     <li><Link className="TopNavigationBarItem" href={item.href}>{item.text}</Link></li>
 );
+
+
 
 
 function TopNavigationBar() {
@@ -25,7 +27,7 @@ function TopNavigationBar() {
 
     function showHamburgerMenu() {
         setMenuOpenOrClosed(!menuOpenOrClosed);
-        alert(navigationMenuItems);
+        alert(topNavigationMenuItems);
     }
 
     return (
@@ -39,12 +41,13 @@ function TopNavigationBar() {
                     </div>
 
                     <div id="BigScreenNavigationMenu">
-                        {navigationMenuItems}
+                        {topNavigationMenuItems}
                     </div>
 
                 </ul>
-            </nav><div id="SideNavigationMenu" className="SmallScreenNavigationMenu">
-                {navigationMenuItems}
+            </nav>
+            <div id="SideNavigationMenu" className="SmallScreenNavigationMenu">
+                {topNavigationMenuItems}
             </div>
 
         </>
