@@ -5,8 +5,8 @@ export default function Visuals() {
     return (
       <main>
         <p>Visuals</p>
-        <CablesPatch/>
-        <CablesPatch patchDir={"/patch1/"} canvasId={"othercanvas"} patchOptions={{ "glCanvasResizeToWindow": false }}/>
+        {/* <CablesPatch/>
+        <CablesPatch patchDir={"/patch1/"} canvasId={"othercanvas"} patchOptions={{ "glCanvasResizeToWindow": false }}/> */}
       </main>
     )
   }
