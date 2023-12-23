@@ -1,5 +1,6 @@
 import React from "react";
 import './BottomAudioControlBar.css';
+import { MdPlayArrow, MdPause } from "react-icons/md";
 
 function BottomAudioControlBar() {
     return (
@@ -8,8 +9,8 @@ function BottomAudioControlBar() {
                 <source src="/nationHoe.wav" type="audio/wav"/>
             </audio>
             <div id="playPause">Play/Pause</div>
-            <div id="VolumeControls"><input type="range" /></div>
-            <div id="SeekerBar"><input type="range" /></div>
+            <input id="VolumeControl" type="range" />
+            <input id="SeekerBar "type="range" />
             <div id="AudioInfo">
                 <p>MixName</p>
                 <p>ArtistName</p>
