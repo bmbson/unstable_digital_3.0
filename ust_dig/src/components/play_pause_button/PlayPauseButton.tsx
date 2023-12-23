@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { MdPause, MdPlayArrow } from "react-icons/md";
+import { MdPause, MdPlayArrow} from "react-icons/md";
 
 function PlayPauseButton() {
     const [playPauseState, setPlayPauseState] = useState(false);

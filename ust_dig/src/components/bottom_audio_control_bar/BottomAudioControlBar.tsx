@@ -2,8 +2,9 @@
 
 import React, { useState } from "react";
 import './BottomAudioControlBar.css';
-import { MdPlayArrow, MdPause } from "react-icons/md";
+import { MdOutlineSettings } from "react-icons/md";
 import PlayPauseButton from "../play_pause_button/PlayPauseButton";
+import VolumeButton from "../volume_button/volume_button";
 
 function BottomAudioControlBar() {
 
@@ -22,6 +23,7 @@ function BottomAudioControlBar() {
             </audio>
 
             <PlayPauseButton></PlayPauseButton>
+            <VolumeButton></VolumeButton>
             <input id="VolumeControl" type="range" />
             <input id="SeekerBar " type="range" />
             <div id="AudioInfo">
@@ -29,7 +31,7 @@ function BottomAudioControlBar() {
                 <p>MixName</p>
                 <p>ArtistName</p>
             </div>
-            <div id="Settings">Settings</div>
+            <MdOutlineSettings></MdOutlineSettings>
         </div>
     );
 }
