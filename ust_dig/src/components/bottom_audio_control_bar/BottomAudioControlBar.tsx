@@ -3,14 +3,9 @@
 import React, { useState } from "react";
 import './BottomAudioControlBar.css';
 import { MdPlayArrow, MdPause } from "react-icons/md";
+import PlayPauseButton from "../play_pause_button/PlayPauseButton";
 
 function BottomAudioControlBar() {
-
-    const [playPauseState, setPlayPauseState] = useState(false);
-
-    function playPauseControl() {
-        setPlayPauseState(!playPauseState)
-    }
 
     function volumeBarControl() {
         alert();
@@ -25,9 +20,8 @@ function BottomAudioControlBar() {
             <audio controls>
                 <source src="/nationHoe.wav" type="audio/wav" />
             </audio>
-            <button onClick={() => playPauseControl()} id="playPauseButton">
-                {playPauseState ? <MdPlayArrow></MdPlayArrow> : <MdPause></MdPause>}
-            </button>
+
+            <PlayPauseButton></PlayPauseButton>
             <input id="VolumeControl" type="range" />
             <input id="SeekerBar " type="range" />
             <div id="AudioInfo">
