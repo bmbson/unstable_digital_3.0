@@ -1,6 +1,6 @@
 import "./VolumeControls.css";
-import VolumeButton from "../volume_button/volume_button";
-import VolumeRangeSlider from "../volume_control/VolumeRangeSlider";
+import VolumeButton from "./volume_button/volume_button";
+import VolumeRangeSlider from "./volume_range_slider/VolumeRangeSlider";
 
 function VolumeControls() {
     return <div id="volume-controls">

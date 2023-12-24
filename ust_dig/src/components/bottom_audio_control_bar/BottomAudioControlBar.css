@@ -4,11 +4,18 @@
     justify-content: space-evenly;
     align-items: center;
 
-    background-color: rgb(127, 127, 127);
+    background-color: rgba(127, 127, 127, 0.5);
     
     /* Keep the Audio Controller at the bottom of the page. */
     position: fixed;
     bottom: 0;
     width: 100%;
+}
 
+#temp-id {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
 }

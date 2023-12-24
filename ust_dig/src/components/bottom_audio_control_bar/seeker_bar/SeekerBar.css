@@ -1,0 +1,9 @@
+#seekerBar {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+#seekerBarSlider {
+    width: 500px;
+}
