@@ -1,6 +1,12 @@
 import './SeekerBar.css';
 
-function SeekerBar() {
+interface SeekerBarProps {
+    totalAudioDuration: string;
+    
+}
+
+function SeekerBar({totalAudioDuration}: SeekerBarProps) {
+
     function minutesSecondsNotationToSeconds(minutesSecondsTime: String): undefined {
         return undefined;
     }
@@ -16,7 +22,7 @@ function SeekerBar() {
     return <div id="seekerBar">
         <p id="currentAudioTime">0:00</p>
         <input id="seekerBarSlider" type="range" />
-        <p id="totalAudioDuration">3:33</p>
+        <p id="totalAudioDuration">{totalAudioDuration}</p>
     </div>
 
 }

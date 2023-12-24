@@ -27,7 +27,7 @@ function BottomAudioControlBar() {
 
                 <PlayPauseButton></PlayPauseButton>
                 <VolumeControls></VolumeControls>
-                <SeekerBar></SeekerBar>
+                <SeekerBar totalAudioDuration={"3:33"}></SeekerBar>
                 <div id="AudioInfo">
                     <img src="" alt="" />
                     <p>MixName</p>
