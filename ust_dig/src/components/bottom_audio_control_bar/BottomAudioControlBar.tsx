@@ -2,9 +2,10 @@
 
 import React, { useState } from "react";
 import './BottomAudioControlBar.css';
-import { MdOutlineSettings } from "react-icons/md";
 import PlayPauseButton from "../play_pause_button/PlayPauseButton";
-import VolumeButton from "../volume_button/volume_button";
+import SettingsButton from "../settings_button/settings_button";
+import VolumeControls from "../volume_controls/VolumeControls";
+
 
 function BottomAudioControlBar() {
 
@@ -18,20 +19,20 @@ function BottomAudioControlBar() {
 
     return (
         <div id="BottomAudioControlBar">
-            <audio controls>
+            {/* <audio controls>
                 <source src="/nationHoe.wav" type="audio/wav" />
-            </audio>
+            </audio> */}
 
             <PlayPauseButton></PlayPauseButton>
-            <VolumeButton></VolumeButton>
-            <input id="VolumeControl" type="range" />
-            <input id="SeekerBar " type="range" />
+            <VolumeControls></VolumeControls>
+            <input id="SeekerBar" type="range" />
+            <p>0:00/3:33</p>
             <div id="AudioInfo">
                 <img src="" alt="" />
                 <p>MixName</p>
                 <p>ArtistName</p>
             </div>
-            <MdOutlineSettings></MdOutlineSettings>
+            <SettingsButton></SettingsButton>
         </div>
     );
 }
