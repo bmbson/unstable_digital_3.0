@@ -6,6 +6,7 @@ import PlayPauseButton from "./play_pause_button/PlayPauseButton";
 import SettingsButton from "../settings_button/settings_button";
 import VolumeControls from "../volume_controls/VolumeControls";
 import SeekerBar from "./seeker_bar/SeekerBar";
+import AudioInfo from "./audio_info/AudioInfo";
 
 
 function BottomAudioControlBar() {
@@ -28,11 +29,7 @@ function BottomAudioControlBar() {
                 <PlayPauseButton></PlayPauseButton>
                 <VolumeControls></VolumeControls>
                 <SeekerBar totalAudioDuration={"3:33"}></SeekerBar>
-                <div id="AudioInfo">
-                    <img src="" alt="" />
-                    <p>MixName</p>
-                    <p>ArtistName</p>
-                </div>
+                <AudioInfo></AudioInfo>
                 <SettingsButton></SettingsButton>
             </div>
         </div>
