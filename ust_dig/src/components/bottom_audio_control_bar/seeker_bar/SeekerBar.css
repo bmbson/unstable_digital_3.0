@@ -5,5 +5,9 @@
 }
 
 #seekerBarSlider {
-    width: 500px;
+    width: 100px;
+}
+
+#currentAudioTime, #totalAudioDuration {
+    font-size: smaller;
 }

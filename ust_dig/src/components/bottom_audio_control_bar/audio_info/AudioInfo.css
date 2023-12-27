@@ -3,9 +3,10 @@
     flex-direction: row;
     gap: 10px;
     align-items: center;
+    font-size: smaller;
 }
 
 #picture {
-    height: 45px;
-    width: 45px;
+    height: 30px;
+    width: 30px;
 }
