@@ -5,9 +5,34 @@
 }
 
 #seekerBarSlider {
-    width: 100px;
+    width: 800px;
+    min-width: 200px;
 }
 
 #currentAudioTime, #totalAudioDuration {
     font-size: smaller;
+}
+
+@media screen and (max-width: 1300px) {
+    #seekerBarSlider {
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    #seekerBarSlider {
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    #seekerBarSlider {
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    #seekerBarSlider {
+        width: 250px;
+    }
 }

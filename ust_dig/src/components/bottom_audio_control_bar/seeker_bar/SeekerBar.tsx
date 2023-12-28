@@ -5,7 +5,6 @@ interface SeekerBarProps {
 }
 
 function SeekerBar({ totalAudioDuration }: SeekerBarProps) {
-    
     function minutesSecondsNotationToSeconds(minutesSecondsTime: String): undefined {
         return undefined;
     }
