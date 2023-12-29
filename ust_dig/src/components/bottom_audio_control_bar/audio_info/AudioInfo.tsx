@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import './AudioInfo.css'
 
 function AudioInfo() {
@@ -5,8 +6,8 @@ function AudioInfo() {
     <div id="AudioInfo">
       <img id="picture" />
       <div id="textInfo">
-        <p>MixName</p>
-        <p>ArtistName</p>
+        <Link href={'/'}><p>MixName</p></Link>
+        <Link href={'/'}><p>ArtistName</p></Link>
       </div>
     </div>
   );

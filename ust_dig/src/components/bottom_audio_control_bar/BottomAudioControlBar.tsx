@@ -22,9 +22,9 @@ function BottomAudioControlBar() {
     return (
         <div id="BottomAudioControlBar">
             <div id="temp-id">
-                {/* <audio controls>
-                <source src="/nationHoe.wav" type="audio/wav" />
-            </audio> */}
+                <audio controls>
+                    <source src="/nationHoe.wav" type="audio/wav" />
+                </audio>
 
                 <PlayPauseButton></PlayPauseButton>
                 <VolumeControls></VolumeControls>

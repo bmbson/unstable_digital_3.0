@@ -37,13 +37,10 @@ function TopNavigationBar() {
             <nav>
                 <ul id="TopNavigationBar">
                     <MdMenu onClick={() => showHamburgerMenu()} id="HamburgerMenu" className="SmallScreenNavigationMenu" />
-
                     <li id="Logo" className="TopNaviationBarItem"><Link href="/"><Image src="/images/top_navigation_bar_images/logo.gif" alt={"Logo"} width={100} height={50}></Image></Link></li>
-
                     <div id="BigScreenNavigationMenu">
                         {topNavigationMenuItems}
                     </div>
-
                 </ul>
             </nav>
             <div style={{'display': ` ${menuOpenOrClosed ? 'none' : ''}`}} id="SideNavigationMenu" className="SmallScreenNavigationMenu">
