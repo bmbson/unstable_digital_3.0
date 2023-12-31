@@ -11,21 +11,25 @@ import AudioInfo from "./audio_info/AudioInfo";
 
 
 function BottomAudioControlBar() {
-    const audioRef = useRef(null);
     const audioContext = new AudioContext();
+    const audioRef = useRef(null);
+    let track = null;
+    const [audioTrack, setAudioTrack] = useState<MediaElementAudioSourceNode | null>(null);
 
     useEffect(() => {
         if (audioRef.current) {
-          const track = audioContext.createMediaElementSource(audioRef.current);
+            track = audioContext.createMediaElementSource(audioRef.current);
+            setAudioTrack(track);
+            audioTrack?.connect(audioContext.destination);
         }
         // if audioRef/audioContext changes, rerun this effect.
-      }, [audioRef]);
+    }, [audioRef]);
 
     return (
         <div id="BottomAudioControlBar">
             <div id="temp-id">
-                <audio ref={audioRef} src="/nationHoe.wav"/>
-                <PlayPauseButton></PlayPauseButton>
+                <audio ref={audioRef} src="/nationHoe.wav" controls />
+                <PlayPauseButton audioTrack={audioTrack} audioContext={audioContext}></PlayPauseButton>
                 <VolumeControls></VolumeControls>
                 <SeekerBar totalAudioDuration={"3:33"}></SeekerBar>
                 <AudioInfo></AudioInfo>
