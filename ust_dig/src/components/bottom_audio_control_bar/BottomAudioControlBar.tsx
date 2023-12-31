@@ -15,12 +15,10 @@ function BottomAudioControlBar() {
     const audioContext = new AudioContext();
 
     useEffect(() => {
-        // Check if audioRef.current is truthy before using it
         if (audioRef.current) {
           const track = audioContext.createMediaElementSource(audioRef.current);
-          // Continue with the rest of your code...
-          alert(audioRef.current);
         }
+        // if audioRef/audioContext changes, return this effect.
       }, [audioRef, audioContext]);
 
     function audioRefTest() {
