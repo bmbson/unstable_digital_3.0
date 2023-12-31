@@ -21,15 +21,10 @@ function BottomAudioControlBar() {
         // if audioRef/audioContext changes, return this effect.
       }, [audioRef, audioContext]);
 
-    function audioRefTest() {
-        alert(audioRef.current);
-    }
-
     return (
         <div id="BottomAudioControlBar">
             <div id="temp-id">
                 <audio ref={audioRef} src="/nationHoe.wav"/>
-                <button onClick={() => audioRefTest()}></button>
                 <PlayPauseButton></PlayPauseButton>
                 <VolumeControls></VolumeControls>
                 <SeekerBar totalAudioDuration={"3:33"}></SeekerBar>
