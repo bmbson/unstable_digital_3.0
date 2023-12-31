@@ -18,8 +18,8 @@ function BottomAudioControlBar() {
         if (audioRef.current) {
           const track = audioContext.createMediaElementSource(audioRef.current);
         }
-        // if audioRef/audioContext changes, return this effect.
-      }, [audioRef, audioContext]);
+        // if audioRef/audioContext changes, rerun this effect.
+      }, [audioRef]);
 
     return (
         <div id="BottomAudioControlBar">
