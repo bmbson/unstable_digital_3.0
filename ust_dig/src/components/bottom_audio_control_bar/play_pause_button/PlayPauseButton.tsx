@@ -22,10 +22,11 @@ function PlayPauseButton(props: Props) {
 
     function playPauseSwitch(bool: Boolean) {
         bool ? props.audioTrack?.mediaElement.play() : props.audioTrack?.mediaElement.pause();
-        console.log(props.audioTrack?.mediaElement.volume);
     };
 
     function playPauseLogic() {
+        console.log("audioContext PP Logic", props.audioContext);
+        console.log("audioTrack PP Logic", props.audioTrack);
         resumeAudioContext(props.audioContext);
         playPauseSwitch(changePlayPauseState());
     };

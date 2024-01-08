@@ -11,16 +11,20 @@ import AudioInfo from "./audio_info/AudioInfo";
 
 
 function BottomAudioControlBar() {
+    // const AudioContext = window.AudioContext || window.AudioContext;
+
     const audioContext = new AudioContext();
     const audioRef = useRef(null);
-    let track = null;
-    const [audioTrack, setAudioTrack] = useState<MediaElementAudioSourceNode | null>(null);
+    const [audioTrack, changeAudioTrack] = useState<MediaElementAudioSourceNode | null>(null);
+    let isConnected = useRef(false);
 
     useEffect(() => {
         if (audioRef.current) {
-            track = audioContext.createMediaElementSource(audioRef.current);
-            setAudioTrack(track);
-            audioTrack?.connect(audioContext.destination);
+            if (isConnected.current != true) {
+                isConnected.current = true;
+                changeAudioTrack(audioContext.createMediaElementSource(audioRef.current));
+                audioTrack?.connect(audioContext.destination);
+            }
         }
         // if audioRef/audioContext changes, rerun this effect.
     }, [audioRef]);
