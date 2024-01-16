@@ -1,0 +1,4 @@
+#mixPanel {
+    display: flex;
+    flex-direction: row;
+}
