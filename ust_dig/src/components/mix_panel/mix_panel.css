@@ -1,4 +1,10 @@
 #mixPanel {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three equal-width columns */
+    grid-gap: 10px; /* 10px gap between grid items */
+}
+
+#imageCard {
+    
+
 }

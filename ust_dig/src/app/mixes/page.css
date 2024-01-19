@@ -1,0 +1,24 @@
+.searchBarsWrapper {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.visuals {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+#x {
+    width: 100%;
+
+}

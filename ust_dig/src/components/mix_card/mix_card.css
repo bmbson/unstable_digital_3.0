@@ -1,0 +1,14 @@
+.mixCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 200px;
+    height: 200px;
+}
+
+.bottomInfo{
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+} 
+

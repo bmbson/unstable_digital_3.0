@@ -21,6 +21,10 @@ li {
   flex-direction: row;
 }
 
+#Logo {
+margin-left: 50px;
+}
+
 #BigScreenNavigationMenu {
   display: flex;
   flex-direction: row;
