@@ -15,10 +15,27 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
 }
 
-#x {
-    width: 100%;
+.searchBarsWrapper {
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
 
+.mixPanelWrapper {
+    margin-right: 70px;
+}
+
+#leftSide {
+    width: 100%;
+}
+
+@media screen and (max-width: 850px) {
+    .rightSide {
+        display: none;
+    }
+
+    .mixPanelWrapper {
+        margin-right: 0px;
+    }
 }

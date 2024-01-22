@@ -10,6 +10,53 @@ function MixPanel() {
             <MixCard mixName={"MIXNAME"} artist={"ARTIST"} imageSrc={"IMAGE"} date={"01-01-1999"}></MixCard>
             <MixCard mixName={"MIXNAME"} artist={"ARTIST"} imageSrc={"IMAGE"} date={"01-01-1999"}></MixCard>
             <MixCard mixName={"MIXNAME"} artist={"ARTIST"} imageSrc={"IMAGE"} date={"01-01-1999"}></MixCard>
+            <MixCard mixName={"MIXNAME"} artist={"ARTIST"} imageSrc={"IMAGE"} date={"01-01-1999"}></MixCard>
+            <MixCard mixName={"MIXNAME"} artist={"ARTIST"} imageSrc={"IMAGE"} date={"01-01-1999"}></MixCard>
+            <MixCard mixName={"MIXNAME"} artist={"ARTIST"} imageSrc={"IMAGE"} date={"01-01-1999"}></MixCard>
+            <MixCard mixName={"MIXNAME"} artist={"ARTIST"} imageSrc={"IMAGE"} date={"01-01-1999"}></MixCard>
+            <MixCard mixName={"MIXNAME"} artist={"ARTIST"} imageSrc={"IMAGE"} date={"01-01-1999"}></MixCard>
+            <MixCard mixName={"MIXNAME"} artist={"ARTIST"} imageSrc={"IMAGE"} date={"01-01-1999"}></MixCard>
+            <MixCard mixName={"MIXNAME"} artist={"ARTIST"} imageSrc={"IMAGE"} date={"01-01-1999"}></MixCard>
+            <MixCard mixName={"MIXNAME"} artist={"ARTIST"} imageSrc={"IMAGE"} date={"01-01-1999"}></MixCard>
+
+            <MixCard mixName={"MIXNAME"} artist={"ARTIST"} imageSrc={"IMAGE"} date={"01-01-1999"}></MixCard>
+            <MixCard mixName={"MIXNAME"} artist={"ARTIST"} imageSrc={"IMAGE"} date={"01-01-1999"}></MixCard>
+            <MixCard mixName={"MIXNAME"} artist={"ARTIST"} imageSrc={"IMAGE"} date={"01-01-1999"}></MixCard>
+            <MixCard mixName={"MIXNAME"} artist={"ARTIST"} imageSrc={"IMAGE"} date={"01-01-1999"}></MixCard>
+            <MixCard mixName={"MIXNAME"} artist={"ARTIST"} imageSrc={"IMAGE"} date={"01-01-1999"}></MixCard>
+            <MixCard mixName={"MIXNAME"} artist={"ARTIST"} imageSrc={"IMAGE"} date={"01-01-1999"}></MixCard>
+            <MixCard mixName={"MIXNAME"} artist={"ARTIST"} imageSrc={"IMAGE"} date={"01-01-1999"}></MixCard>
+            <MixCard mixName={"MIXNAME"} artist={"ARTIST"} imageSrc={"IMAGE"} date={"01-01-1999"}></MixCard>
+            <MixCard mixName={"MIXNAME"} artist={"ARTIST"} imageSrc={"IMAGE"} date={"01-01-1999"}></MixCard>
+            <MixCard mixName={"MIXNAME"} artist={"ARTIST"} imageSrc={"IMAGE"} date={"01-01-1999"}></MixCard>
+            <MixCard mixName={"MIXNAME"} artist={"ARTIST"} imageSrc={"IMAGE"} date={"01-01-1999"}></MixCard>
+            <MixCard mixName={"MIXNAME"} artist={"ARTIST"} imageSrc={"IMAGE"} date={"01-01-1999"}></MixCard>
+            
+            <MixCard mixName={"MIXNAME"} artist={"ARTIST"} imageSrc={"IMAGE"} date={"01-01-1999"}></MixCard>
+            <MixCard mixName={"MIXNAME"} artist={"ARTIST"} imageSrc={"IMAGE"} date={"01-01-1999"}></MixCard>
+            <MixCard mixName={"MIXNAME"} artist={"ARTIST"} imageSrc={"IMAGE"} date={"01-01-1999"}></MixCard>
+            <MixCard mixName={"MIXNAME"} artist={"ARTIST"} imageSrc={"IMAGE"} date={"01-01-1999"}></MixCard>
+            <MixCard mixName={"MIXNAME"} artist={"ARTIST"} imageSrc={"IMAGE"} date={"01-01-1999"}></MixCard>
+            <MixCard mixName={"MIXNAME"} artist={"ARTIST"} imageSrc={"IMAGE"} date={"01-01-1999"}></MixCard>
+            <MixCard mixName={"MIXNAME"} artist={"ARTIST"} imageSrc={"IMAGE"} date={"01-01-1999"}></MixCard>
+            <MixCard mixName={"MIXNAME"} artist={"ARTIST"} imageSrc={"IMAGE"} date={"01-01-1999"}></MixCard>
+            <MixCard mixName={"MIXNAME"} artist={"ARTIST"} imageSrc={"IMAGE"} date={"01-01-1999"}></MixCard>
+            <MixCard mixName={"MIXNAME"} artist={"ARTIST"} imageSrc={"IMAGE"} date={"01-01-1999"}></MixCard>
+            <MixCard mixName={"MIXNAME"} artist={"ARTIST"} imageSrc={"IMAGE"} date={"01-01-1999"}></MixCard>
+            <MixCard mixName={"MIXNAME"} artist={"ARTIST"} imageSrc={"IMAGE"} date={"01-01-1999"}></MixCard>
+            
+            <MixCard mixName={"MIXNAME"} artist={"ARTIST"} imageSrc={"IMAGE"} date={"01-01-1999"}></MixCard>
+            <MixCard mixName={"MIXNAME"} artist={"ARTIST"} imageSrc={"IMAGE"} date={"01-01-1999"}></MixCard>
+            <MixCard mixName={"MIXNAME"} artist={"ARTIST"} imageSrc={"IMAGE"} date={"01-01-1999"}></MixCard>
+            <MixCard mixName={"MIXNAME"} artist={"ARTIST"} imageSrc={"IMAGE"} date={"01-01-1999"}></MixCard>
+            <MixCard mixName={"MIXNAME"} artist={"ARTIST"} imageSrc={"IMAGE"} date={"01-01-1999"}></MixCard>
+            <MixCard mixName={"MIXNAME"} artist={"ARTIST"} imageSrc={"IMAGE"} date={"01-01-1999"}></MixCard>
+            <MixCard mixName={"MIXNAME"} artist={"ARTIST"} imageSrc={"IMAGE"} date={"01-01-1999"}></MixCard>
+            <MixCard mixName={"MIXNAME"} artist={"ARTIST"} imageSrc={"IMAGE"} date={"01-01-1999"}></MixCard>
+            <MixCard mixName={"MIXNAME"} artist={"ARTIST"} imageSrc={"IMAGE"} date={"01-01-1999"}></MixCard>
+            <MixCard mixName={"MIXNAME"} artist={"ARTIST"} imageSrc={"IMAGE"} date={"01-01-1999"}></MixCard>
+            <MixCard mixName={"MIXNAME"} artist={"ARTIST"} imageSrc={"IMAGE"} date={"01-01-1999"}></MixCard>
+            <MixCard mixName={"MIXNAME"} artist={"ARTIST"} imageSrc={"IMAGE"} date={"01-01-1999"}></MixCard>
         </div>
     )
 };

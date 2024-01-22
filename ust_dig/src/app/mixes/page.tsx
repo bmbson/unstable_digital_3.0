@@ -10,19 +10,42 @@ import VisualCard from "@/components/visual_card/visual_card"
 export default function Mixes() {
   return (
     <main>
-      <div id="x">
+      <div id="leftSide">
         <div className="searchBarsWrapper">
           <SearchBar></SearchBar>
           <SearchBar></SearchBar>
         </div>
-        <MixPanel></MixPanel>
+        <div className="mixPanelWrapper">
+          <MixPanel></MixPanel>
+        </div>
       </div>
-      <div className="visuals">
-        <VisualCard></VisualCard>
-        <VisualCard></VisualCard>
-        <VisualCard></VisualCard>
+      <div className="rightSide">
+        <div className="visuals">
+          <VisualCard></VisualCard>
+          <VisualCard></VisualCard>
+          <VisualCard></VisualCard>
+          <VisualCard></VisualCard>
+          <VisualCard></VisualCard>
+          <VisualCard></VisualCard>
+          <VisualCard></VisualCard>
+          <VisualCard></VisualCard>
+          <VisualCard></VisualCard>
+          <VisualCard></VisualCard>
+          <VisualCard></VisualCard>
+          <VisualCard></VisualCard>
+          <VisualCard></VisualCard>
+          <VisualCard></VisualCard>
+          <VisualCard></VisualCard>
+          <VisualCard></VisualCard>
+          <VisualCard></VisualCard>
+          <VisualCard></VisualCard>
+          <VisualCard></VisualCard>
+          <VisualCard></VisualCard>
+          <VisualCard></VisualCard>
+      
+        </div>
       </div>
 
-    </main>
+    </main >
   )
 }
