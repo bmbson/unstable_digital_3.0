@@ -11,11 +11,20 @@
     cursor: pointer;
 }
 
-.bottomInfo{
+.bottomInfo {
     display: flex;
     justify-content: space-between;
-    height: 40px;
-} 
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.562);
+}
+
+.image {
+    height: 100%;
+    width: 100%;
+    z-index: -999;
+}
 
 
 @media screen and (max-width: 1100px) {

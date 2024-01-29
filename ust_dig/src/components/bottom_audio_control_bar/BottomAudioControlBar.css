@@ -4,7 +4,7 @@
     justify-content: space-evenly;
     align-items: center;
 
-    background-color: rgba(127, 127, 127, 0.5);
+    background-color: rgb(127, 127, 127);
     
     /* Keep the Audio Controller at the bottom of the page. */
     position: fixed;
