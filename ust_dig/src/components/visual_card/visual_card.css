@@ -2,3 +2,10 @@
     width: 225px;
     height: 225px;
 }
+
+.image {
+    width: 225px;
+    height: 225px;
+    background-color: red;
+    margin-bottom: 10px;
+}

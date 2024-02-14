@@ -42,7 +42,6 @@ export default function Mixes() {
           <VisualCard></VisualCard>
           <VisualCard></VisualCard>
           <VisualCard></VisualCard>
-      
         </div>
       </div>
 
