@@ -15,18 +15,18 @@ interface props {
 function MixCard(props: props) {
     const testRef = useRef<null | HTMLDivElement>(null);
 
-    function showInfoOnHover() {
+    function showInfoOnMouseOver() {
         testRef.current.style.visibility = 'visible'
     }
 
-    function testFunc() {
+    function hideInfoOnMouseLeave() {
         testRef.current.style.visibility = 'hidden'
     }
 
     return (
         <>
             <Link href={'/selected_mix'}>
-                <div onMouseOver={showInfoOnHover} onMouseLeave={testFunc} className="mixCard">
+                <div onMouseOver={showInfoOnMouseOver} onMouseLeave={hideInfoOnMouseLeave} className="mixCard">
                     <div className="imageWrapper" style={{ position: 'relative' }}>
                         <Image id='image' fill={true} layout='fill' src={'/images/testImage.jpg'} alt={'Test Image'}>
                         </Image>
