@@ -1,0 +1,4 @@
+#artistInfoWrapper {
+    display: flex;
+    flex-direction: row;
+}
