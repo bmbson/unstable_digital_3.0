@@ -1,4 +1,30 @@
+main {
+    display: flex;
+    flex-direction: column;
+}
+
 #artistInfoWrapper {
     display: flex;
     flex-direction: row;
+    width: 1000px;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    gap: 30px;
+}
+
+#artistInfo {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0;
+}
+
+#mixesTitle {
+    text-align: center;
+    font-size: xx-large;
+}
+
+#mixesWrapper {
+    align-self: center;
+    width: 1425px;
 }

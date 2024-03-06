@@ -9,11 +9,11 @@ interface Props {
 
 function VisualCard({ height = '225px', width = '225px' }: Props) {
     return (
-        <>
+        <div>
             <div className="visualCard" style={{ height, width }}>
                 <div className="image">imageSrc</div>
             </div>
-        </>
+        </div>
     )
 };
 
