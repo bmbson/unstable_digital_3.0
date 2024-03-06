@@ -1,14 +1,22 @@
 import React from "react";
 import './visual_card.css';
 
-function VisualCard() {
+
+interface Props {
+    height?: string;
+    width?: string;
+}
+
+function VisualCard({ height = '225px', width = '225px' }: Props) {
     return (
         <>
-            <div className="visualCard">
+            <div className="visualCard" style={{ height, width }}>
                 <div className="image">imageSrc</div>
             </div>
         </>
     )
 };
+
+
 
 export default VisualCard;

@@ -5,14 +5,21 @@ import './mix_card.css'
 import Link from 'next/link';
 import { useRef, useState } from 'react';
 
-interface props {
+interface Props {
     'mixName': string;
     'artist': string;
     'imageSrc': string;
     'date': string;
+    width?: string;
+    height?: string;
 }
 
-function MixCard(props: props) {
+MixCard.defaultProps = {
+    width: '300px',
+    height: '300px',
+};
+
+function MixCard(props: Props) {
     const testRef = useRef<null | HTMLDivElement>(null);
 
     function showInfoOnMouseOver() {
@@ -26,7 +33,7 @@ function MixCard(props: props) {
     return (
         <>
             <Link href={'/selected_mix'}>
-                <div onMouseOver={showInfoOnMouseOver} onMouseLeave={hideInfoOnMouseLeave} className="mixCard">
+                <div className="mixCard" style={{width: props.width, height: props.height}} onMouseOver={showInfoOnMouseOver} onMouseLeave={hideInfoOnMouseLeave} >
                     <div className="imageWrapper" style={{ position: 'relative' }}>
                         <Image id='image' fill={true} layout='fill' src={'/images/testImage.jpg'} alt={'Test Image'}>
                         </Image>

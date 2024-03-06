@@ -7,7 +7,7 @@ export default function Selected_Mix() {
     return (
         <main>
             <div id="artistInfoWrapper">
-                <VisualCard></VisualCard>
+                <VisualCard height="400px" width="400px"></VisualCard>
                 <div id="artistInfo">
                     <p>Artist Info:</p>
 

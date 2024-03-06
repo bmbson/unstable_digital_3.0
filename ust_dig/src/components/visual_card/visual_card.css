@@ -1,11 +1,6 @@
-.visualCard {
-    width: 225px;
-    height: 225px;
-}
-
 .image {
-    width: 225px;
-    height: 225px;
+    width: 100%;
+    height: 100%;
     background-color: red;
     margin-bottom: 10px;
 }
