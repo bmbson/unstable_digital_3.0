@@ -20,24 +20,24 @@ MixCard.defaultProps = {
 };
 
 function MixCard(props: Props) {
-    const testRef = useRef<null | HTMLDivElement>(null);
+    const bottomInfoRef = useRef<null | HTMLDivElement>(null);
 
     function showInfoOnMouseOver() {
-        testRef.current.style.visibility = 'visible'
+        bottomInfoRef.current.style.visibility = 'visible'
     }
 
     function hideInfoOnMouseLeave() {
-        testRef.current.style.visibility = 'hidden'
+        bottomInfoRef.current.style.visibility = 'hidden'
     }
 
     return (
         <>
             <Link href={'/selected_mix'}>
-                <div className="mixCard" style={{width: props.width, height: props.height}} onMouseOver={showInfoOnMouseOver} onMouseLeave={hideInfoOnMouseLeave} >
+                <div className="mixCard" style={{ width: props.width, height: props.height }} onMouseOver={showInfoOnMouseOver} onMouseLeave={hideInfoOnMouseLeave} >
                     <div className="imageWrapper" style={{ position: 'relative' }}>
                         <Image id='image' fill={true} layout='fill' src={'/images/testImage.jpg'} alt={'Test Image'}>
                         </Image>
-                        <div className="bottomInfo" ref={testRef}>
+                        <div className="bottomInfo" ref={bottomInfoRef}>
                             <div className="bottomInfoLeft">
                                 <p>{props.mixName}</p>
                                 <p>{props.artist}</p>
