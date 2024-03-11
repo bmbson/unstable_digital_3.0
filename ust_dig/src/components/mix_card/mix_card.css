@@ -21,10 +21,20 @@
     background-color: rgba(82, 82, 82, 0.493);
 }
 
+.mixCardPlayPauseButton {
+    position: relative;
+    justify-self: center;
+    bottom: -50%;
+    /* visibility: hidden; */
+    align-self: center;
+    z-index: 2;
+}
+
 .imageWrapper {
     height: 100%;
     width: 100%;
     z-index: -999;
+    justify-content: center;
 }
 
 /*@keyframes grow {

@@ -14,7 +14,6 @@ function BottomAudioControlBar() {
     return (
         <div id="BottomAudioControlBar">
             <div id="temp-id">
-                <audio src="/nationHoe.wav" controls />
                 <PlayPauseButton></PlayPauseButton>
                 <VolumeControls></VolumeControls>
                 <SeekerBar totalAudioDuration={"3:33"}></SeekerBar>
