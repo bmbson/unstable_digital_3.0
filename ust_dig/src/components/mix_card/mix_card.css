@@ -22,12 +22,13 @@
 }
 
 .mixCardPlayPauseButton {
-    position: relative;
+    display: flex;
     justify-self: center;
-    bottom: -50%;
-    /* visibility: hidden; */
-    align-self: center;
-    z-index: 2;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
 }
 
 .imageWrapper {
@@ -35,6 +36,10 @@
     width: 100%;
     z-index: -999;
     justify-content: center;
+}
+
+#zIndexWrapper {
+    z-index: 1;
 }
 
 /*@keyframes grow {

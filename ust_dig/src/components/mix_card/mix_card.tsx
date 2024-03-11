@@ -42,11 +42,15 @@ function MixCard(props: Props) {
             <div className="mixCard" style={{ width: props.width, height: props.height }} onMouseOver={showInfoOnMouseOver} onMouseLeave={hideInfoOnMouseLeave} >
                 <audio src="/nationHoe.wav" />
                 <div className="imageWrapper" style={{ position: 'relative' }}>
-                    <div className='mixCardPlayPauseButton' ref={mixCardRef} onClick={() => { setPlayPauseState(!playPauseState); alert() }}>
-                        {playPauseState ? <MdOutlinePlayCircleOutline size={100}></MdOutlinePlayCircleOutline> : <MdOutlinePauseCircleOutline size={100}></MdOutlinePauseCircleOutline>}
-                    </div>
+
                     <Image id='image' fill={true} layout='fill' src={'/images/testImage.jpg'} alt={'Test Image'}>
                     </Image>
+
+                    <div className='mixCardPlayPauseButton' ref={mixCardRef} onClick={() => { setPlayPauseState(!playPauseState); alert() }}>
+                        <div id="zIndexWrapper">
+                            {playPauseState ? <MdOutlinePlayCircleOutline size={100}></MdOutlinePlayCircleOutline> : <MdOutlinePauseCircleOutline size={100}></MdOutlinePauseCircleOutline>}
+                        </div>
+                    </div>
 
                     <div className="bottomInfo" ref={bottomInfoRef}>
                         <div className="bottomInfoLeft">
